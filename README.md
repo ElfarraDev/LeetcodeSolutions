@@ -5,7 +5,7 @@ Total LeetCode problems solved: 0 - Easy: 0 - Medium: 0 - Hard: 0
 This repository contains my solutions to various LeetCode problems. The solutions are organized by programming language, then by topic, and finally by difficulty level.
 
 ## Repository Structure
-\`\`\`
+```
 leetcode-solutions/
 │
 ├── python/
@@ -37,7 +37,7 @@ leetcode-solutions/
 │   └── ...
 │
 └── leetcode-push.sh
-\`\`\`
+```
 
 ## Usage
 To add a new solution:
