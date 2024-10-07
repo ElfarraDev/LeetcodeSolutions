@@ -6,9 +6,6 @@ update_readme() {
     local easy=$2
     local medium=$3
     local hard=$4
-    local filename=$5
-    local topic=$6
-    local difficulty=$7
 
     if [ ! -f "README.md" ]; then
         echo "Error: README.md not found. Please create a README.md file in the repository root."
@@ -18,14 +15,7 @@ update_readme() {
     # Update the problem count
     sed -i '' "s/Total LeetCode problems solved: .* - Easy: .* - Medium: .* - Hard: .*/Total LeetCode problems solved: $total - Easy: $easy - Medium: $medium - Hard: $hard/" README.md
 
-    # Add the new problem to the table
-    if [ -n "$filename" ]; then
-        problem_number=$(echo $filename | cut -d'-' -f1)
-        problem_name=$(echo $filename | sed -E 's/[0-9]+-(.+)\.py/\1/' | tr '-' ' ' | sed 's/\b\(.\)/\u\1/g')
-        echo "| $problem_number | $problem_name | [Python](./python/$topic/$difficulty/$filename) | $topic | $difficulty |" >> README.md
-    fi
-
-    echo "Updated README.md with new problem counts and details."
+    echo "Updated README.md with new problem counts."
 }
 
 # Function to validate filename format
@@ -44,27 +34,40 @@ push_to_github() {
     local topic=$4
     local difficulty=$5
 
-    # Stash any local changes
-    git stash
+    # Fetch the latest changes from the remote repository
+    git fetch origin main
 
-    # Pull the latest changes from the remote repository
-    git pull origin main
-
-    # Pop the stashed changes
-    git stash pop
-
-    # Add all changes
-    git add .
-
-    # Commit changes
-    git commit -m "Add solution for LeetCode $problem_number: $problem_name ($language, $topic, $difficulty)"
-
-    # Try to push changes
-    if git push origin main; then
+    # Check if there are any differences between local and remote
+    if git diff --quiet main origin/main; then
+        # No differences, safe to push
+        git add .
+        git commit -m "Add solution for LeetCode $problem_number: $problem_name ($language, $topic, $difficulty)"
+        git push origin main
         echo "Changes pushed to GitHub successfully."
     else
-        echo "Failed to push changes to GitHub. There might be conflicts that need manual resolution."
-        echo "Please resolve any conflicts, commit the changes, and push manually."
+        # There are differences, we need to merge
+        echo "There are differences between your local branch and the remote branch."
+        echo "Attempting to merge changes..."
+
+        if git merge origin/main; then
+            # Merge successful, now we can commit and push
+            git add .
+            git commit -m "Add solution for LeetCode $problem_number: $problem_name ($language, $topic, $difficulty)"
+            if git push origin main; then
+                echo "Changes merged and pushed to GitHub successfully."
+            else
+                echo "Failed to push changes to GitHub after merge."
+                echo "Please push your changes manually using 'git push origin main'."
+            fi
+        else
+            # Merge failed, manual intervention required
+            echo "Automatic merge failed. Please resolve conflicts manually, then commit and push your changes."
+            echo "Here are the steps to resolve this:"
+            echo "1. Resolve the conflicts in the affected files."
+            echo "2. Stage the resolved files using 'git add <filename>'."
+            echo "3. Commit the changes using 'git commit -m \"Merge and add solution for LeetCode $problem_number\"'."
+            echo "4. Push the changes using 'git push origin main'."
+        fi
     fi
 }
 
@@ -176,7 +179,7 @@ else
         medium=$(grep -c ",medium," "$log_file")
         hard=$(grep -c ",hard," "$log_file")
 
-        update_readme $total $easy $medium $hard "$filename" "$topic" "$difficulty"
+        update_readme $total $easy $medium $hard
     fi
 
     push_to_github $problem_number $problem_name $language $topic $difficulty
