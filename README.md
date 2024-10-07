@@ -41,15 +41,20 @@ leetcode-solutions/
 
 ## Usage
 To add a new solution:
-1. Solve the problem and save your solution in the repository root with the naming format: \`XXXX-problem-name.py\`
+1. Solve the problem and save your solution in the repository root with the naming format: `XXXX-problem-name.py`
 2. Run the \`leetcode-push.sh\` script with the following arguments:
-\`\`\`bash
+
+3. 
+```bash
 ./leetcode-push.sh <filename> <topic> <difficulty>
-\`\`\`
+```
+
 For example:
-\`\`\`bash
+
+```bash
 ./leetcode-push.sh 0001-two-sum.py arrays easy
-\`\`\`
+```
+
 This will:
 - Move the file to the appropriate folder based on the topic and difficulty
 - Update the CSV log file with problem details
@@ -74,9 +79,4 @@ This is a personal repository for my own LeetCode solutions. However, if you spo
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
-| 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |
-| 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |
-| 0036 | valid sudoku | [Python](./python///0036-valid-sudoku.py) |  |  |
-| 0036 | valid sudoku | [Python](./python///0036-valid-sudoku.py) |  |  |
-| 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |
 
