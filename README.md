@@ -75,7 +75,3 @@ This is a personal repository for my own LeetCode solutions. However, if you spo
 ## License
 This project is open source and available under the [MIT License](LICENSE).
 | 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |
-| 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |
-| 0036 | valid sudoku | [Python](./python///0036-valid-sudoku.py) |  |  |
-| 0036 | valid sudoku | [Python](./python///0036-valid-sudoku.py) |  |  |
-| 0036 | valid sudoku | [Python](./python/array/medium/0036-valid-sudoku.py) | array | medium |

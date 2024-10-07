@@ -44,10 +44,28 @@ push_to_github() {
     local topic=$4
     local difficulty=$5
 
+    # Stash any local changes
+    git stash
+
+    # Pull the latest changes from the remote repository
+    git pull origin main
+
+    # Pop the stashed changes
+    git stash pop
+
+    # Add all changes
     git add .
+
+    # Commit changes
     git commit -m "Add solution for LeetCode $problem_number: $problem_name ($language, $topic, $difficulty)"
-    git push origin main
-    echo "Changes pushed to GitHub."
+
+    # Try to push changes
+    if git push origin main; then
+        echo "Changes pushed to GitHub successfully."
+    else
+        echo "Failed to push changes to GitHub. There might be conflicts that need manual resolution."
+        echo "Please resolve any conflicts, commit the changes, and push manually."
+    fi
 }
 
 # Check if correct number of arguments is provided
