@@ -4,3 +4,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0054,"spiral-matrix",python,array,medium,https://leetcode.com/problems/spiral-matrix/,no,2024-10-09,"Initial solution"
 0100,"same-tree",python,binary-tree,easy,https://leetcode.com/problems/same-tree/,no,2024-10-09,"Initial solution"
 0049,"group-anagrams",python,array,medium,https://leetcode.com/problems/group-anagrams/,no,2024-10-10,"Initial solution"
+0020,"valid-parentheses",python,stack,easy,https://leetcode.com/problems/valid-parentheses/,no,2024-10-11,"Initial solution"
