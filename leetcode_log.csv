@@ -7,3 +7,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0020,"valid-parentheses",python,stack,easy,https://leetcode.com/problems/valid-parentheses/,no,2024-10-11,"Initial solution"
 0155,"min-stack",python,stack,medium,https://leetcode.com/problems/min-stack/,no,2024-10-11,"Initial solution"
 0682,"baseball-game",python,stack,easy,https://leetcode.com/problems/baseball-game/,no,2024-10-11,"Initial solution"
+0150,"evaluate-reverse-polish-notation",python,stack,medium,https://leetcode.com/problems/evaluate-reverse-polish-notation/,no,2024-10-12,"Initial solution"
