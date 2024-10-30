@@ -11,3 +11,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0389,"find-the-difference",python,hash,easy,https://leetcode.com/problems/find-the-difference/,no,2024-10-13,"Initial solution"
 0217,"contains-duplicate",python,hash,easy,https://leetcode.com/problems/contains-duplicate/,no,2024-10-30,"Initial solution"
 0242,"valid-anagram",python,hash,easy,https://leetcode.com/problems/valid-anagram/,no,2024-10-30,"Initial solution"
+0771,"jewels-and-stones",python,hash,easy,https://leetcode.com/problems/jewels-and-stones/,no,2024-10-30,"Initial solution"
