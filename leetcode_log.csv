@@ -12,3 +12,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0217,"contains-duplicate",python,hash,easy,https://leetcode.com/problems/contains-duplicate/,no,2024-10-30,"Initial solution"
 0242,"valid-anagram",python,hash,easy,https://leetcode.com/problems/valid-anagram/,no,2024-10-30,"Initial solution"
 0771,"jewels-and-stones",python,hash,easy,https://leetcode.com/problems/jewels-and-stones/,no,2024-10-30,"Initial solution"
+0001,"two-sum",python,hash,easy,https://leetcode.com/problems/two-sum/,no,2024-10-30,"Initial solution"
