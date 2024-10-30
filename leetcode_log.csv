@@ -9,3 +9,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0682,"baseball-game",python,stack,easy,https://leetcode.com/problems/baseball-game/,no,2024-10-11,"Initial solution"
 0150,"evaluate-reverse-polish-notation",python,stack,medium,https://leetcode.com/problems/evaluate-reverse-polish-notation/,no,2024-10-12,"Initial solution"
 0389,"find-the-difference",python,hash,easy,https://leetcode.com/problems/find-the-difference/,no,2024-10-13,"Initial solution"
+0217,"contains-duplicate",python,hash,easy,https://leetcode.com/problems/contains-duplicate/,no,2024-10-30,"Initial solution"
