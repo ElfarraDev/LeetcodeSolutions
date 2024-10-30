@@ -14,3 +14,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0771,"jewels-and-stones",python,hash,easy,https://leetcode.com/problems/jewels-and-stones/,no,2024-10-30,"Initial solution"
 0001,"two-sum",python,hash,easy,https://leetcode.com/problems/two-sum/,no,2024-10-30,"Initial solution"
 0383,"ransom-note",python,hash,easy,https://leetcode.com/problems/ransom-note/,no,2024-10-30,"Initial solution"
+0657,"robot-return-to-origin",python,array,easy,https://leetcode.com/problems/robot-return-to-origin/,no,2024-10-30,"Initial solution"
