@@ -18,3 +18,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 1822,"sign-of-the-product-of-an-array",python,array,easy,https://leetcode.com/problems/sign-of-the-product-of-an-array/,no,2024-11-01,"Initial solution"
 0189,"majority-element",python,array,easy,https://leetcode.com/problems/majority-element/,no,2024-11-01,"Initial solution"
 0066,"plus-one",python,array,easy,https://leetcode.com/problems/plus-one/,no,2024-11-01,"Initial solution"
+1957,"delete-characters-to-make-fancy-string",python,array,easy,https://leetcode.com/problems/delete-characters-to-make-fancy-string/,no,2024-11-01,"Initial solution"
