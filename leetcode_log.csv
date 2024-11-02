@@ -22,3 +22,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0138,"copy-list-with-random-pointer",python,linked-list,medium,https://leetcode.com/problems/copy-list-with-random-pointer/,no,2024-11-01,"Initial solution"
 0141,"linked-list-cycle",python,linked-list,easy,https://leetcode.com/problems/linked-list-cycle/,no,2024-11-01,"Initial solution"
 0287,"find-the-duplicate-number",python,linked-list,medium,https://leetcode.com/problems/find-the-duplicate-number/,no,2024-11-01,"Initial solution"
+0003,"longest-substring-without-repeating-characters",python,array,medium,https://leetcode.com/problems/longest-substring-without-repeating-characters/,no,2024-11-02,"Initial solution"
