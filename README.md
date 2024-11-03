@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Total LeetCode problems solved: 24 - Easy: 16 - Medium: 8 - Hard: 0
+Total LeetCode problems solved: 25 - Easy: 17 - Medium: 8 - Hard: 0
 
 This repository contains my solutions to various LeetCode problems. The solutions are organized by programming language, then by topic, and finally by difficulty level.
 
