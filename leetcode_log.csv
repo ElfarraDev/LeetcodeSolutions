@@ -26,3 +26,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0013,"roman-to-integer",python,array,easy,https://leetcode.com/problems/roman-to-integer/,no,2024-11-03,"Initial solution"
 0876,"middle-of-the-linked-list",python,linked-list,easy,https://leetcode.com/problems/middle-of-the-linked-list/,no,2024-11-04,"Initial solution"
 0338,"counting-bits",python,bit-manipulation,easy,https://leetcode.com/problems/counting-bits/,no,2024-11-04,"Initial solution"
+0226,"invert-binary-tree",python,binary-tree,easy,https://leetcode.com/problems/invert-binary-tree/,no,2024-11-04,"Initial solution"
