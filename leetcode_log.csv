@@ -31,3 +31,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0125,"valid-palindrome",python,array,easy,https://leetcode.com/problems/valid-palindrome/,no,2024-11-05,"Initial solution"
 0009,"palindrome-number",python,math,easy,https://leetcode.com/problems/palindrome-number/,no,2024-11-05,"Initial solution"
 0278,"first-bad-version",python,binary-search,easy,https://leetcode.com/problems/first-bad-version/,no,2024-11-05,"Initial solution"
+0007,"reverse-integer",python,math,medium,https://leetcode.com/problems/reverse-integer/,no,2024-11-05,"Initial solution"
