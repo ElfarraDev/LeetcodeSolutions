@@ -30,3 +30,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0191,"number-of-1-bits",python,bit-manipulation,easy,https://leetcode.com/problems/number-of-1-bits/,no,2024-11-05,"Initial solution"
 0125,"valid-palindrome",python,array,easy,https://leetcode.com/problems/valid-palindrome/,no,2024-11-05,"Initial solution"
 0009,"palindrome-number",python,math,easy,https://leetcode.com/problems/palindrome-number/,no,2024-11-05,"Initial solution"
+0278,"first-bad-version",python,binary-search,easy,https://leetcode.com/problems/first-bad-version/,no,2024-11-05,"Initial solution"
