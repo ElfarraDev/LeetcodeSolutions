@@ -33,3 +33,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0278,"first-bad-version",python,binary-search,easy,https://leetcode.com/problems/first-bad-version/,no,2024-11-05,"Initial solution"
 0007,"reverse-integer",python,math,medium,https://leetcode.com/problems/reverse-integer/,no,2024-11-05,"Initial solution"
 0704,"binary-search",python,binary-search,easy,https://leetcode.com/problems/binary-search/,no,2024-11-06,"Initial solution"
+0026,"remove-duplicates-from-sorted-array",python,array,easy,https://leetcode.com/problems/remove-duplicates-from-sorted-array/,no,2024-11-17,"Initial solution"
