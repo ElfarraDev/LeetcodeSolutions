@@ -38,3 +38,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0074,"search-a-2d-matrix",python,binary-search,medium,https://leetcode.com/problems/search-a-2d-matrix/,no,2024-11-18,"Initial solution"
 0349,"intersection-of-two-arrays",python,array,easy,https://leetcode.com/problems/intersection-of-two-arrays/,no,2024-11-18,"Initial solution"
 0219,"contains-duplicate-ii",python,hash,easy,https://leetcode.com/problems/contains-duplicate-ii/,no,2024-11-18,"Initial solution"
+0235,"lowest-common-ancestor-of-a-binary-search-tree",python,binary-tree,medium,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,no,2024-11-19,"Initial solution"
