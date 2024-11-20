@@ -40,3 +40,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0219,"contains-duplicate-ii",python,hash,easy,https://leetcode.com/problems/contains-duplicate-ii/,no,2024-11-18,"Initial solution"
 0235,"lowest-common-ancestor-of-a-binary-search-tree",python,binary-tree,medium,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,no,2024-11-19,"Initial solution"
 0102,"binary-tree-level-order-traversal",python,binary-tree,medium,https://leetcode.com/problems/binary-tree-level-order-traversal/,no,2024-11-19,"Initial solution"
+0039,"combination-sum",python,backtracking,medium,https://leetcode.com/problems/combination-sum/,no,2024-11-19,"Initial solution"
