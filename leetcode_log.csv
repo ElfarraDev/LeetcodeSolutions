@@ -44,3 +44,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0236,"lowest-common-ancestor-of-a-binary-tree",python,binary-tree,medium,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/,no,2024-11-19,"Initial solution"
 0344,"reverse-string",python,array,easy,https://leetcode.com/problems/reverse-string/,no,2024-11-20,"Initial solution"
 0104,"maximum-depth-of-binary-tree",python,binary-tree,easy,https://leetcode.com/problems/maximum-depth-of-binary-tree/,no,2024-11-20,"Initial solution"
+1351,"count-negative-numbers-in-a-sorted-matrix",python,binary-search,easy,https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/,no,2024-11-24,"Initial solution"
