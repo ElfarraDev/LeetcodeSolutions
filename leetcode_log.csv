@@ -46,3 +46,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0104,"maximum-depth-of-binary-tree",python,binary-tree,easy,https://leetcode.com/problems/maximum-depth-of-binary-tree/,no,2024-11-20,"Initial solution"
 1351,"count-negative-numbers-in-a-sorted-matrix",python,binary-search,easy,https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/,no,2024-11-24,"Initial solution"
 0121,"best-time-to-buy-and-sell-stock",python,array,easy,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,no,2024-11-25,"Initial solution"
+0643,"maximum-average-subarray-i",python,array,easy,https://leetcode.com/problems/maximum-average-subarray-i/,no,2024-11-25,"Initial solution"
