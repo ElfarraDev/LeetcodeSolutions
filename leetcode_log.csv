@@ -50,3 +50,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 1343,"number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",python,array,medium,https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/,no,2024-11-26,"Initial solution"
 1456,"maximum-number-of-vowels-in-a-substring-of-given-length",python,array,medium,https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/,no,2024-11-26,"Initial solution"
 0374,"guess-number-higher-or-lower",python,binary-search,easy,https://leetcode.com/problems/guess-number-higher-or-lower/,no,2024-11-26,"Initial solution"
+1004,"max-consecutive-ones-iii",python,array,medium,https://leetcode.com/problems/max-consecutive-ones-iii/,no,2024-11-26,"Initial solution"
