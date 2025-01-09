@@ -54,3 +54,4 @@ Problem Number,Problem Name,Language,Topic,Difficulty,Link,Needs Review,Date Com
 0167,"two-sum-ii-input-array-is-sorted",python,array,medium,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/,no,2024-12-03,"Initial solution"
 0238,"product-of-array-except-self",python,array,medium,https://leetcode.com/problems/product-of-array-except-self/,no,2025-01-05,"Initial solution"
 0128,"longest-consecutive-sequence",python,array,medium,https://leetcode.com/problems/longest-consecutive-sequence/,no,2025-01-06,"Initial solution"
+0015,"3sum",python,array,medium,https://leetcode.com/problems/3sum/,no,2025-01-09,"Initial solution"
